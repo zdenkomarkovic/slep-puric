@@ -37,7 +37,7 @@ const About = () => {
             Kontaktirajte nas 24/7 i obezbedite siguran prevoz vašeg vozila.
           </p>
         </div>
-        <div className="rounded-full overflow-hidden w-1/3">
+        <div className="rounded-3xl overflow-hidden w-1/3">
           <Image
             src={"/logo.jpg"}
             width={500}
