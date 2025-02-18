@@ -1,12 +1,12 @@
+import { IconType } from "react-icons";
 import { GiWeightLiftingUp } from "react-icons/gi";
 import { GiWeight } from "react-icons/gi";
 import { IoFitnessOutline } from "react-icons/io5";
-import { IoIosFitness } from "react-icons/io";
 import { MdOutlineSportsGymnastics } from "react-icons/md";
-import { GiGymBag } from "react-icons/gi";
 import { IoIosPeople } from "react-icons/io";
 import { IoIosPerson } from "react-icons/io";
 import { PiRocketLaunchBold } from "react-icons/pi";
+import { LuTimerReset } from "react-icons/lu";
 
 export const navList = [
   {
@@ -131,5 +131,97 @@ export const testimonialData: TestimonialData[] = [
     image: "/hero1.jpg",
     description:
       "Treniram ovde već nekoliko godina i mogu reći da mi je ovo druga porodica! Pored sjajnih treninga, upoznala sam divne ljude koji su mi postali bliski prijatelji. Motivacija i podrška su neverovatni!",
+  },
+];
+
+export interface LineCardsData {
+  id: number;
+  icon: IconType;
+  title: string;
+  text: string;
+}
+
+export const lineCardsData = [
+  {
+    id: 1,
+    icon: LuTimerReset,
+    title: "Dostupnost 24/7",
+    text: "Bez obzira na vreme i lokaciju, stižemo što pre!",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "Brza reakcija",
+    text: "Na terenu smo u najkraćem roku nakon vašeg poziva.",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "Iskusni vozači i moderna oprema",
+    text: "Siguran i profesionalan prevoz vašeg vozila.",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "Povoljne cene",
+    text: "Transparentne i konkurentne cene bez skrivenih troškova.",
+  },
+];
+
+export interface SixCardsData {
+  id: number;
+  icon: IconType;
+  title: string;
+  text: string;
+}
+
+export const sixCardsData = [
+  {
+    id: 1,
+    icon: LuTimerReset,
+    title: "ŠLEP AUTOMOBILA",
+    text: "Bavimo se šlepanjem svih vrsta i tipova automobila. Vršimo šlepanje havarisanih vozila, u poluvoznom ili voznom stanju.",
+  },
+  {
+    id: 2,
+    icon: GiWeight,
+    title: "ŠLEP MOTORA",
+    text: "Pružamo uslugu šlepanja raznih vrsta motora, skutera, četvorotočkaša, motornih sanki itd.",
+  },
+  {
+    id: 3,
+    icon: GiWeight,
+    title: "ŠLEP KOMBIJA I KAMIONA",
+    text: "Vršimo uslugu transporta kombi vozila, kamiona, radnih masina na teritoriji cele Srbije.",
+  },
+  {
+    id: 4,
+    icon: GiWeight,
+    title: "ŠLEP VOZILA IZ INOSTRANSTVA",
+    text: "Vršimo prevoz automobila iz inostranstva po najpovoljnijim cenama u Srbiji.",
+  },
+  {
+    id: 5,
+    icon: GiWeight,
+    title: "POMOĆ NA PUTU 0-24h",
+    text: "Svakom može zatrebati u nekom trenutku, naročito u hitnim slučajevima. Kada je potrebna šlep služba u Cacku i na teritoriji Zlatibora.",
+  },
+  {
+    id: 6,
+    icon: GiWeight,
+    title: "ŠLEP LAKOG I TEŠKOG TERETA",
+    text: "Za vas prevozimo i laki i teški teret, kako u Cacku, tako i u drugim gradovima Srbije.",
+  },
+  {
+    id: 7,
+    icon: GiWeight,
+    title: "Šlep Havarisanog Vozila",
+    text: "Kada se suočite s havarijom na putu, shvatate koliko je važno prepustiti šlepanje havarisanog vozila profesionalcima. Upravo iz tog razloga, tim stručnjaka iz Šlep Beograd je tu da vam pruži pouzdanu i proverenu šlep uslugu koja će bezbedno prevesti vaše havarisano vozilo do najbližeg servisa ili prema vašem izboru.",
+  },
+  {
+    id: 8,
+    icon: GiWeight,
+    title: "Izvlacenje sajlom vozila van puta",
+    text: "Kada se suočite s havarijom na putu, shvatate koliko je važno prepustiti šlepanje havarisanog vozila profesionalcima. Upravo iz tog razloga, tim stručnjaka iz Šlep Beograd je tu da vam pruži pouzdanu i proverenu šlep uslugu koja će bezbedno prevesti vaše havarisano vozilo do najbližeg servisa ili prema vašem izboru.",
   },
 ];

@@ -44,9 +44,9 @@ export default function Footer() {
           <div className="space-y-3 pb-5 md:pb-0">
             <div>
               {" "}
-              <a href="tel:+38160 000 000">
+              <a href="tel:+381659480700">
                 <p className="text-muted-foreground  hover:text-primary">
-                  Telefon: +38160 000 000
+                  Telefon: +38165 94 80 700
                 </p>
               </a>
             </div>
@@ -68,7 +68,7 @@ export default function Footer() {
           </div>
           <div className="md:col-span-1 col-span-2 text-center text-primary">
             <h3 className="text-lg font-semibold mb-2 md:mb-4">
-              starter naslov
+              ŠLEP SLUŽBA PURIĆ
             </h3>
 
             <p className=" font-bold ">starter poruka</p>
@@ -76,7 +76,7 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-col md:flex-row justify-center gap-2 md:gap-10 border-t-[1px] border-cool-green mt-10 pt-5">
-          <p>&copy; 2025 _________. Sva prava zadržana.</p>
+          <p>&copy; 2025 Šlep služba Purić. Sva prava zadržana.</p>
           <a href="https://www.manikamwebsolutions.com/" target="_blank">
             izrada sajta:{" "}
             <span className="font-bold text-primary"> ManikamWebSolutions</span>

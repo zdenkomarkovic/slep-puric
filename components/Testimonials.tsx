@@ -23,7 +23,9 @@ import Autoplay from "embla-carousel-autoplay";
 const Testemonials = () => {
   return (
     <div className="py-10 container px-4 mx-auto">
-      <h2 className="text-5xl py-20 text-center text-primary">Nasa ekipa</h2>
+      <h2 className="text-5xl py-20 text-center text-primary">
+        Rekli su o nama
+      </h2>
 
       <Carousel
         className="w-full  overflow-hidden"
@@ -61,7 +63,7 @@ const TestemonialCard = ({ service }: { service: TestimonialData }) => {
       whileTap={{ scale: 0.95 }}
       className="h-full"
     >
-      <Card className={`bg-primary p-5 rounded-3xl text-white h-full`}>
+      <Card className={` p-5 rounded-3xl  h-full `}>
         <CardHeader>
           <CardTitle className={`text-2xl capitalize text-center py-2`}>
             {service.title}
