@@ -5,11 +5,11 @@ import { PhoneIcon } from "lucide-react";
 
 const PozoviteNasOdmah = () => {
   return (
-    <div className="bg-foreground text-primary py-20">
+    <div className="bg-foreground text-primary mt-32 py-20">
       <div className="container px-2 md:px-4 mx-auto font-bold flex items-center gap-20">
         <h2 className="text-4xl">
-          Mi smo brza, bezbedna i povoljna šlep služba koja Vam je na usluzi 24
-          h, 365 dana u godini.
+          Šlep služba Purić Čačak brza, povoljna i bezbedna šlep služba je tu za
+          vas 24h dnevno, tokom cele godine godine.
         </h2>
         <a href="tel:+381659480700">
           <motion.button
