@@ -156,7 +156,19 @@ export const servisCardsData = [
   {
     id: 8,
     icon: GiWeight,
+    title: "Šlep radnih mašina",
+    text: "Šlep radnih mašina do lokacije na kojoj mogu nastaviti s poslom, brzo i sigurno.",
+  },
+  {
+    id: 9,
+    icon: GiWeight,
     title: "Izvlačenje sajlom vozila van puta",
     text: "Izvlačenje vozila sa puta sajlom, pažljivo izvedeno kako bi se izbegla dodatna oštećenja vozila.",
+  },
+  {
+    id: 10,
+    icon: GiWeight,
+    title: "Prevoz poljoprivrednih mašina",
+    text: "Prevoz poljoprivrednih mašina, priključaka i opreme – idealno rešenje za one koje je lakše transportovati nego voziti, kao i za neispravne mašine.",
   },
 ];
