@@ -6,7 +6,7 @@ const Cards1 = ({ title, data }: { title: string; data: LineCardsData[] }) => {
   return (
     <div className="">
       <div className="container px-5 mx-auto py-10 md:py-20 border-t-2 space-y-10 md:space-y-20">
-        <h2 className="text-2xl md:text-5xl text-center text-primary font-bold">
+        <h2 className="text-4xl md:text-5xl text-center text-primary font-bold">
           {title}
         </h2>
         <div className="grid md:grid-cols-4 text-center gap-6 md:gap-8 items-stretch">
@@ -26,13 +26,13 @@ const Cards1 = ({ title, data }: { title: string; data: LineCardsData[] }) => {
 export default Cards1;
 
 const OneCard = ({ item }: { item: LineCardsData }) => {
-  const IconComponent = item.icon; // Ovo će omogućiti korišćenje ikone kao React komponentu
+  const IconComponent = item.icon;
 
   return (
     <Card className="h-full">
       <CardHeader>
         <div className="mx-auto text-7xl text-primary md:pb-5">
-          <IconComponent /> {/* Renderuje ikonu kao React komponentu */}
+          <IconComponent />
         </div>
         <CardTitle className="text-3xl">{item.title}</CardTitle>
       </CardHeader>

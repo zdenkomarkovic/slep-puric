@@ -3,7 +3,7 @@ import React from "react";
 
 const BackgroundImage = () => {
   return (
-    <div className="relative flex min-h-[50dvh]">
+    <div className="relative flex min-h-[30dvh]">
       {/* <div className="absolute top-0 left-0 w-full h-full bg-black/20 z-[1]" /> */}
       <Image
         src={"/pozadina5.avif"}
