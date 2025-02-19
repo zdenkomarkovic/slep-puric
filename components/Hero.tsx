@@ -17,7 +17,7 @@ const Hero = () => {
       />
 
       <div className="relative container px-2 md:px-4 mx-auto  flex flex-col gap-8 items-center justify-center z-[1] ">
-        <h1 className="text-primary md:text-7xl text-4xl font-bold px-4">
+        <h1 className="text-primary md:text-7xl text-4xl font-bold px-4 text-center">
           Šlep služba Purić 032 Čačak
         </h1>
         <h2 className="text-muted font-medium md:text-5xl text-md">
