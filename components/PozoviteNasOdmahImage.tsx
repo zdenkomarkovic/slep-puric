@@ -3,10 +3,11 @@ import React from "react";
 import { motion } from "framer-motion";
 import { PhoneIcon } from "lucide-react";
 import Image from "@/node_modules/next/image";
+import { FaRegCircleCheck } from "react-icons/fa6";
 
 const PozoviteNasOdmah = () => {
   return (
-    <div className="bg-foreground text-muted pt-6">
+    <div className="bg-foreground text-muted pt-10">
       <div className="container px-2 md:px-4 mx-auto font-bold flex justify-center items-center gap-20">
         <Image
           src={"/slep puric.jpg"}
@@ -15,12 +16,17 @@ const PozoviteNasOdmah = () => {
           alt="puric slep"
           className="rounded-t-xl"
         />
-        <div className="flex flex-col  items-stretch">
+        <div className="flex flex-col gap-6">
+          {/* <span className=" flex text-primary text-5xl bg-muted-foreground rounded-full">
+            <FaRegCircleCheck />
+          </span> */}
+
           <div>
-            <h2 className="text-4xl">
-              Potrebna vam je transport i šlep vašeg vozila?
+            <h2 className="text-4xl text-primary py-3">
+              <FaRegCircleCheck className="mb-4 text-6xl bg-muted-foreground rounded-full" />
+              Potreban vam je transport i šlep vašeg vozila?
             </h2>
-            <p className="text-primary">Šlep služba Purić Čačak</p>
+            <p className="text-3xl">Šlep služba Purić Čačak</p>
           </div>
           <a href="tel:+381659480700">
             <motion.button

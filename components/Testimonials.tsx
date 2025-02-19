@@ -24,7 +24,7 @@ const Testemonials = () => {
   return (
     <div className="py-10 container px-4 mx-auto">
       <h2 className="text-5xl py-20 text-center text-primary">
-        Rekli su o nama
+        Reči naših klijenata
       </h2>
 
       <Carousel

@@ -6,86 +6,21 @@ import { MdOutlineSportsGymnastics } from "react-icons/md";
 import { IoIosPeople } from "react-icons/io";
 import { IoIosPerson } from "react-icons/io";
 import { PiRocketLaunchBold } from "react-icons/pi";
-import { LuTimerReset } from "react-icons/lu";
+import { LuTimerReset, LuClock } from "react-icons/lu";
 
 export const navList = [
   {
     title: "Početna",
     link: "/",
   },
+
   {
     title: "Usluge",
-    list: [
-      {
-        title: "Kuhinje",
-        link: "",
-      },
-      {
-        title: "Plakari",
-        link: "",
-      },
-      {
-        title: "TV Komode",
-        link: "",
-      },
-      {
-        title: "Projektovanje Enterijera",
-        link: "",
-      },
-    ],
-  },
-  {
-    title: "Proizvodi",
-    link: "/proizvodi",
+    link: "/usluge",
   },
   {
     title: "Kontakt",
     link: "/kontakt",
-  },
-];
-
-export interface WorkList {
-  id: number;
-  title: string;
-  text: string;
-}
-
-export const workList = [
-  {
-    id: 1,
-    title: "Grupni treninzi",
-    text: "Oblikuj svoje telo i poboljšaj kondiciju uz dinamične grupne treninge! Vežbaj u motivišućem okruženju, uz stručno vođstvo i podršku tima. Pridruži se i zajedno postižemo ciljeve!",
-    icon: IoIosPeople,
-  },
-  {
-    id: 2,
-    title: "Individualni treninzi",
-    text: "Ostvari maksimalne rezultate uz personalizovane individualne treninge! Treniraj prema svom tempu, uz stručnu podršku i plan prilagođen tvojim ciljevima. Fokus je na tebi!",
-    icon: IoIosPerson,
-  },
-  {
-    id: 3,
-    title: "Pilates",
-    text: "Poboljšaj fleksibilnost, snagu i držanje uz pilates treninge! Uz kontrolisane pokrete i fokus na disanje, oblikuj telo i oslobodi se stresa. Idealno za sve nivoe kondicije!",
-    icon: IoFitnessOutline,
-  },
-  {
-    id: 4,
-    title: "Body power",
-    text: "Ojačaj mišiće i poboljšaj izdržljivost uz intenzivan trening snage! Kombinacija tegova i funkcionalnih vežbi pomoći će ti da postigneš vrhunsku formu.",
-    icon: GiWeightLiftingUp,
-  },
-  {
-    id: 5,
-    title: "Mix-fit",
-    text: " Dinamičan spoj kardio i snage za maksimalne rezultate! Raznovrsni pokreti, visoka energija i zabavna atmosfera čine svaki trening izazovnim i efektivnim.",
-    icon: MdOutlineSportsGymnastics,
-  },
-  {
-    id: 6,
-    title: "Aeronix",
-    text: "Spoj aerobnih vežbi i funkcionalnog treninga za bolju kondiciju i oblikovanje tela! Povećaj izdržljivost, sagori kalorije i uživaj u energičnom ritmu vežbanja.",
-    icon: PiRocketLaunchBold,
   },
 ];
 
@@ -99,38 +34,38 @@ export interface TestimonialData {
 export const testimonialData: TestimonialData[] = [
   {
     id: 1,
-    title: "Jelena R.",
+    title: "Marko J.",
     image: "/hero1.jpg",
     description:
-      "Treninzi su odlični, atmosfera motivišuća, a instruktori puni znanja i energije! Već nakon nekoliko nedelja osećam ogromnu promenu u kondiciji i snazi. Preporučujem svima!",
+      "Brza i profesionalna usluga! Pozvao sam Šlep službu Purić nakon havarije, i za nekoliko minuta su bili tu. Vozilo su pažljivo odvezli do servisa bez ikakvih dodatnih oštećenja. Preporučujem ih svakome!“",
   },
   {
     id: 2,
     title: "Ivana S.",
     image: "/hero1.jpg",
     description:
-      "Fitnes klub je za mene više od mesta za vežbanje – ovde sam pronašla ekipu koja me inspiriše i podržava! Vežbamo zajedno, bodrimo se i družimo i van treninga. Ne bih ovo menjala ni za šta!",
+      "Izuzetno ljubazni i efikasni! Šlep služba Purić je brzo reagovala i bezbedno prevezla moj automobil nakon nesreće. Hvala na pomoći!",
   },
   {
     id: 3,
-    title: "Ana M.",
+    title: "Luka M.",
     image: "/hero2.jpg",
     description:
-      "Posle svakog treninga osećam se snažnije i zdravije! Programi su prilagođeni svim nivoima, a podrška trenera me stalno gura ka boljoj verziji sebe.",
+      "Nisam očekivao da će usluga biti ovako brza i efikasna! Šlep služba Purić je brzo došla po moje vozilo i sigurno ga odvezla do servisa. Topla preporuka!",
   },
   {
     id: 4,
     title: "Katarina N.",
     image: "/hero3.jpg",
     description:
-      "Od kada treniram ovde, imam više energije, manje stresa i bolju kondiciju! Ambijent je fantastičan, a treninzi su uvek dinamični i zanimljivi.",
+      "Nakon nezgode, Šlep služba Purić je bila jedini kontakt koji mi je trebao. Profesionalni su i zaista vode računa o svakom detalju. Prezadovoljan sam!",
   },
   {
     id: 5,
-    title: "Milica P.",
+    title: "Jovan K.",
     image: "/hero1.jpg",
     description:
-      "Treniram ovde već nekoliko godina i mogu reći da mi je ovo druga porodica! Pored sjajnih treninga, upoznala sam divne ljude koji su mi postali bliski prijatelji. Motivacija i podrška su neverovatni!",
+      "Pouzdana usluga i brzo rešenje u hitnim situacijama. Šlep služba Purić je odradila fantastičan posao sa mojim vozilom. Preporučujem svim prijateljima!",
   },
 ];
 
@@ -141,7 +76,7 @@ export interface LineCardsData {
   text: string;
 }
 
-export const lineCardsData = [
+export const lineCardsData: LineCardsData[] = [
   {
     id: 1,
     icon: LuTimerReset,
@@ -150,78 +85,78 @@ export const lineCardsData = [
   },
   {
     id: 2,
-    icon: GiWeight,
+    icon: LuTimerReset,
     title: "Brza reakcija",
     text: "Na terenu smo u najkraćem roku nakon vašeg poziva.",
   },
   {
     id: 3,
-    icon: GiWeight,
+    icon: LuTimerReset,
     title: "Iskusni vozači i moderna oprema",
     text: "Siguran i profesionalan prevoz vašeg vozila.",
   },
   {
     id: 4,
-    icon: GiWeight,
+    icon: LuTimerReset,
     title: "Povoljne cene",
     text: "Transparentne i konkurentne cene bez skrivenih troškova.",
   },
 ];
 
-export interface SixCardsData {
+export interface ServisCardsData {
   id: number;
   icon: IconType;
   title: string;
   text: string;
 }
 
-export const sixCardsData = [
+export const servisCardsData = [
   {
     id: 1,
     icon: LuTimerReset,
-    title: "ŠLEP AUTOMOBILA",
-    text: "Bavimo se šlepanjem svih vrsta i tipova automobila. Vršimo šlepanje havarisanih vozila, u poluvoznom ili voznom stanju.",
+    title: "Šlep automobila",
+    text: "Vršimo šlep svih vrsta automobila, bez obzira na stanje vozila – havarisana, poluvozna ili ispravna.",
   },
   {
     id: 2,
     icon: GiWeight,
-    title: "ŠLEP MOTORA",
-    text: "Pružamo uslugu šlepanja raznih vrsta motora, skutera, četvorotočkaša, motornih sanki itd.",
+    title: "Šlep motora",
+    text: "Šlepamo motore, skutere, četvorotočkaše, motorne sanke i druga vozila brzo i sigurno.",
   },
   {
     id: 3,
     icon: GiWeight,
-    title: "ŠLEP KOMBIJA I KAMIONA",
-    text: "Vršimo uslugu transporta kombi vozila, kamiona, radnih masina na teritoriji cele Srbije.",
+    title: "Šlep kombija i kamiona",
+    text: "Pružamo uslugu transporta kombija, kamiona i radnih mašina širom Srbije, uz sigurnost i brzinu.",
   },
   {
     id: 4,
     icon: GiWeight,
-    title: "ŠLEP VOZILA IZ INOSTRANSTVA",
+    title: "Šlep vozila iz inostranstva",
     text: "Vršimo prevoz automobila iz inostranstva po najpovoljnijim cenama u Srbiji.",
   },
   {
     id: 5,
     icon: GiWeight,
-    title: "POMOĆ NA PUTU 0-24h",
-    text: "Svakom može zatrebati u nekom trenutku, naročito u hitnim slučajevima. Kada je potrebna šlep služba u Cacku i na teritoriji Zlatibora.",
+    title: "Pomoc na putu 0-24h",
+    text: "Svakom može zatrebati u nekom trenutku, naročito u hitnim slučajevima. Kada je potrebna šlep služba u Čačku i na teritoriji Zlatibora.",
   },
   {
     id: 6,
     icon: GiWeight,
-    title: "ŠLEP LAKOG I TEŠKOG TERETA",
-    text: "Za vas prevozimo i laki i teški teret, kako u Cacku, tako i u drugim gradovima Srbije.",
+    title: "Šlep lakog i teškog tereta",
+    text: "Za vas prevozimo i laki i teški teret, kako u Čačku, tako i u drugim gradovima Srbije.",
   },
   {
     id: 7,
     icon: GiWeight,
-    title: "Šlep Havarisanog Vozila",
-    text: "Kada se suočite s havarijom na putu, shvatate koliko je važno prepustiti šlepanje havarisanog vozila profesionalcima. Upravo iz tog razloga, tim stručnjaka iz Šlep Beograd je tu da vam pruži pouzdanu i proverenu šlep uslugu koja će bezbedno prevesti vaše havarisano vozilo do najbližeg servisa ili prema vašem izboru.",
+    title: "Šlep havarisanog vozila",
+    text: "Ukoliko ste imali havariju na putu, tu smo da pokupimo vaše vozilo i bezbedno ga odšlepamo do servisa.",
   },
   {
     id: 8,
     icon: GiWeight,
-    title: "Izvlacenje sajlom vozila van puta",
-    text: "Kada se suočite s havarijom na putu, shvatate koliko je važno prepustiti šlepanje havarisanog vozila profesionalcima. Upravo iz tog razloga, tim stručnjaka iz Šlep Beograd je tu da vam pruži pouzdanu i proverenu šlep uslugu koja će bezbedno prevesti vaše havarisano vozilo do najbližeg servisa ili prema vašem izboru.",
+    title: "Izvlačenje sajlom vozila van puta",
+    text: "Izvlačenje vozila sa puta sajlom, pažljivo izvedeno kako bi se izbegla dodatna oštećenja vozila.",
   },
 ];

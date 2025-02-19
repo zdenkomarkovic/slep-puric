@@ -1,5 +1,7 @@
+"use client";
 import Image from "@/node_modules/next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
@@ -37,7 +39,13 @@ const About = () => {
             Kontaktirajte nas 24/7 i obezbedite siguran prevoz vašeg vozila.
           </p>
         </div>
-        <div className="rounded-3xl overflow-hidden w-1/3">
+        <motion.div
+          initial={{ scale: 0.2, opacity: 0 }} // Naizmenično levo/desno
+          whileInView={{ scale: 1, opacity: 1 }} // Animira se ka centru
+          transition={{ duration: 0.8, ease: "easeOut" }}
+          viewport={{ once: true }}
+          className="rounded-3xl overflow-hidden w-1/3"
+        >
           <Image
             src={"/logo.jpg"}
             width={500}
@@ -45,7 +53,7 @@ const About = () => {
             alt="slep puric cacak "
             className=""
           />
-        </div>
+        </motion.div>
       </div>
     </div>
   );

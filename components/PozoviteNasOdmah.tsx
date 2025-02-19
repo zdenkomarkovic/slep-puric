@@ -5,7 +5,7 @@ import { PhoneIcon } from "lucide-react";
 
 const PozoviteNasOdmah = () => {
   return (
-    <div className="bg-foreground text-primary mt-32 py-20">
+    <div className="bg-foreground text-primary mt-20 py-20">
       <div className="container px-2 md:px-4 mx-auto font-bold flex items-center gap-20">
         <h2 className="text-4xl">
           Šlep služba Purić Čačak brza, povoljna i bezbedna šlep služba je tu za
