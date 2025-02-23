@@ -31,12 +31,12 @@ const OneCard = ({ item }: { item: LineCardsData }) => {
   return (
     <Card className="h-full">
       <CardHeader>
-        <div className="mx-auto text-7xl text-primary md:pb-5">
+        <div className="mx-auto text-4xl md:text-6xl text-primary md:pb-5">
           <IconComponent />
         </div>
-        <CardTitle className="text-3xl">{item.title}</CardTitle>
+        <CardTitle className="text-2xl md:text-3xl">{item.title}</CardTitle>
       </CardHeader>
-      <CardContent className="text-xl">
+      <CardContent className="text-lg md:text-xl">
         <p>{item.text}</p>
       </CardContent>
     </Card>

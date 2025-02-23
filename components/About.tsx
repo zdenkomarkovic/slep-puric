@@ -9,7 +9,7 @@ const About = () => {
       <div className="container px-2 md:px-4 py-10 md:py-20 mx-auto flex flex-col md:flex-row gap-6 md:gap-20 items-center">
         <div className=" md:w-2/3 space-y-3 md:space-y-8">
           <h2 className="text-4xl font-bold md:text-6xl text-primary flex flex-col  text-center">
-            Šlep služba Čačak - Purić{" "}
+            Šlep služba Čačak - Purić 032
             <span className="text-2xl font-normal md:text-3xl  text-muted-foreground">
               Do 10 tona nosivosti
             </span>

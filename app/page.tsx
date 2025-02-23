@@ -19,7 +19,7 @@ export default function Home() {
 
       <Cards2 title={"Usluge"} data={cards2Data} />
       <BackgroundImage image={"/pozadina5.avif"} />
-      <Cards1 title={"Šlep Purić Čačak"} data={lineCardsData} />
+      <Cards1 title={"Šlep Čačak Purić 032"} data={lineCardsData} />
       <CardWithImage />
       <PozoviteNasOdmahImage />
       <Testemonials />
