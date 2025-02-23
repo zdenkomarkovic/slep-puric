@@ -1,5 +1,4 @@
 "use client";
-import SlepAutomobila from "@/components/SlepAutomobila";
 import { cards2Data } from "@/constants/index";
 import Image from "@/node_modules/next/image";
 import { usePathname } from "@/node_modules/next/navigation";
