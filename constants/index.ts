@@ -198,7 +198,7 @@ export const cards2Data: Cards2Data[] = [
     icon: Ri24HoursLine,
     title: "Pomoc na putu 0-24h",
     text: "Bilo da ste ostali bez goriva, imate probušenu gumu, problem sa akumulatorom ili bilo koji drugi kvar na putu, mi smo dostupni u bilo koje doba dana i noći. Naš tim dolazi na lice mesta sa opremom za brzo rešavanje problema, kako biste mogli da nastavite putovanje bez čekanja. Ako problem ne može da se reši na licu mesta, organizujemo šlep do najbližeg servisa.",
-    image: "/24/7.jpg",
+    image: "/24.jpg",
   },
   {
     id: 6,
