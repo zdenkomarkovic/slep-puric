@@ -20,7 +20,7 @@ const Hero = () => {
         <h1 className="text-primary md:text-7xl text-4xl font-bold px-4 text-center">
           Šlep služba Purić 032 Čačak
         </h1>
-        <h2 className="text-muted font-bold md:text-5xl text-md">
+        <h2 className="text-muted font-bold md:text-5xl text-xl">
           Od 0 do 24h, sedam dana u nedelji!
         </h2>
         <a href="tel:+381637896311">

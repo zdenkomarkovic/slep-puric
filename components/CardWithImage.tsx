@@ -4,7 +4,7 @@ import { FaRegCircleCheck } from "react-icons/fa6";
 
 const CardWithImage = () => {
   return (
-    <div className="container px-2 md:px-4 mx-auto text-right md:py-20 ">
+    <div className="container px-2 md:px-4 mx-auto text-center md:text-right md:py-20 ">
       <h2 className="text-2xl md:text-5xl text-primary font-bold py-6">
         POVOLJNA CENA I BRZA USLUGA ŠLEPANJA VOZILA U ZEMLJI I INOSTRANSTVU
       </h2>
@@ -18,7 +18,7 @@ const CardWithImage = () => {
             className="rounded-xl md:rounded-l-full"
           />
         </div>
-        <div className="flex flex-col gap-2 md:gap-0 py-8 md:py-20 md:justify-between text-left text-xl md:text-3xl">
+        <div className="pl-5 md:pl-0  flex flex-col gap-2 md:gap-0 py-8 md:py-20 md:justify-between text-left text-xl md:text-3xl">
           <p className="flex gap-5 items-center">
             {" "}
             <span className="text-primary text-4xl md:text-5xl bg-muted-foreground rounded-full">
