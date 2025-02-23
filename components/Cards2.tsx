@@ -1,16 +1,8 @@
-import { Cards2Data, Cards2DataText } from "@/constants/index";
+import { Cards2Data } from "@/constants/index";
 import { CardHeader, CardContent, Card } from "./ui/card";
 import MotionComponent1 from "./MotionComponent1";
 
-const Cards2 = ({
-  title,
-  data,
-  text,
-}: {
-  title: string;
-  data: Cards2Data[];
-  text: Cards2DataText;
-}) => {
+const Cards2 = ({ title, data }: { title: string; data: Cards2Data[] }) => {
   return (
     <div className="">
       <div className="container px-5 mx-auto py-10 md:py-16 border-b-2 space-y-10 md:space-y-20">
@@ -26,7 +18,6 @@ const Cards2 = ({
             );
           })}
         </div>
-        <p className="first-letter:pl-6 text-xl md:text-3xl">{text.text}</p>
       </div>
     </div>
   );
