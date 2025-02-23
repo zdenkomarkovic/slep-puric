@@ -16,7 +16,7 @@ export default function Home() {
       <PozoviteNasOdmah />
       <About />
 
-      <Cards2 title={"Usluge"} data={cards2Data} text={""} />
+      <Cards2 title={"Usluge"} data={cards2Data} />
       <BackgroundImage image={"/pozadina5.avif"} />
       <Cards1 title={"Šlep Purić Čačak"} data={lineCardsData} />
       <BackgroundImage image={"/pozadina6.jpg"} />
