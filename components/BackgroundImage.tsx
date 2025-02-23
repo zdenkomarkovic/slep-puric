@@ -9,7 +9,7 @@ const BackgroundImage = ({ image }: { image: string }) => {
         src={image}
         alt="slep puric"
         fill
-        className="w-full h-full  object-cover"
+        className="w-full h-full object-cover "
       />
     </div>
   );

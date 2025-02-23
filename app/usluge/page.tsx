@@ -19,12 +19,12 @@ const Page = () => {
     }
   }, [pathname]); // Pokreni kad se promeni putanja
   return (
-    <div className="py-24">
+    <div className="py-20 md:py-24">
       <div className="container px-2 md:px-4 mx-auto">
-        <h1 className="py-20 text-primary text-6xl text-center">
+        <h1 className="py-5 md:py-20 text-primary  text-3xl md:text-6xl text-center">
           Šlep Purić - pouzdana i Brza Pomoć na Putu – 24/7 Dostupnost
         </h1>
-        <p className="text-3xl py-10 px-20">
+        <p className="text-xl md:text-3xl md:py-10 md:px-20">
           Naša slep služba pruža{" "}
           <span className="font-bold">siguran i brz prevoz vozila</span> u svim
           situacijama – kvarovi, nezgode ili potreba za transportom. Bez obzira
@@ -36,27 +36,36 @@ const Page = () => {
         {cards2Data.map((data, i) => {
           return (
             <div key={data.id} id={data.divName}>
-              <h2 className="text-primary text-6xl py-10 text-center">
+              <h2 className="text-primary text-3xl md:text-6xl py-10 text-center">
                 {data.title}
               </h2>
               <div
-                className={`px-20 flex ${
-                  i % 2 === 0 ? "flex-row" : "flex-row-reverse"
-                } gap-20 items-center justify-between border-b py-10`}
+                className={` md:px-20 flex flex-col ${
+                  i % 2 === 0 ? "md:flex-row" : "md:flex-row-reverse"
+                } gap-5 md:gap-32 items-center justify-between border-b pb-6 md:py-10`}
               >
-                <p className="text-2xl">{data.text}</p>
+                <p className="text-xl md:text-2xl first-letter:pl-6">
+                  {data.text}
+                </p>
                 <Image
                   src={data.image}
-                  width={250}
-                  height={250}
+                  width={300}
+                  height={300}
                   alt="slep puric"
-                  className="rounded-2xl"
+                  className="w-[90%] md:w-[300px] rounded-2xl object-cover aspect-square"
                 />
               </div>
             </div>
           );
         })}
       </div>
+      <Image
+        src={"/black.jpg"}
+        width={1000}
+        height={500}
+        alt="slep cacak"
+        className=" w-full aspect-[3/2] object-cover"
+      />
     </div>
   );
 };

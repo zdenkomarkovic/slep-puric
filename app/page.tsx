@@ -8,6 +8,7 @@ import PozoviteNasOdmahImage from "@/components/PozoviteNasOdmahImage";
 import Testemonials from "@/components/Testimonials";
 import { cards2Data, lineCardsData } from "@/constants/index";
 import Cards2 from "@/components/Cards2";
+import Image from "@/node_modules/next/image";
 
 export default function Home() {
   return (
@@ -19,10 +20,16 @@ export default function Home() {
       <Cards2 title={"Usluge"} data={cards2Data} />
       <BackgroundImage image={"/pozadina5.avif"} />
       <Cards1 title={"Šlep Purić Čačak"} data={lineCardsData} />
-      <BackgroundImage image={"/pozadina6.jpg"} />
       <CardWithImage />
       <PozoviteNasOdmahImage />
       <Testemonials />
+      <Image
+        src={"/black.jpg"}
+        width={1000}
+        height={500}
+        alt="slep cacak"
+        className=" w-full aspect-[3/2] object-cover"
+      />
     </div>
   );
 }

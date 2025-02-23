@@ -23,7 +23,7 @@ export default function Footer() {
 
               <li>
                 <Link
-                  href="/"
+                  href="/usluge"
                   className="text-muted-foreground hover:text-primary"
                 >
                   Usluge
@@ -44,24 +44,32 @@ export default function Footer() {
           <div className="space-y-3 pb-5 md:pb-0">
             <div>
               {" "}
-              <a href="tel:+381659480700">
+              <a href="tel:+381637896311">
                 <p className="text-muted-foreground  hover:text-primary">
-                  Telefon: +38165 94 80 700
+                  Telefon: +38163 789 6311
                 </p>
               </a>
             </div>
             <div>
-              <a href="mailto:">
+              <a href="mailto:sweetyivo@gmail.com" target={"_blank"}>
                 <p className="text-muted-foreground text-wrap  hover:text-primary">
-                  Email: starter mail
+                  Email: sweetyivo@gmail.com
                 </p>
               </a>
             </div>
             <div className="flex space-x-4 justify-center md:justify-start">
-              <a href="#" className="text-muted-foreground hover:text-primary">
+              <a
+                href="https://www.facebook.com/profile.php?id=61559770900567"
+                target={"_blank"}
+                className="text-muted-foreground hover:text-primary"
+              >
                 <Facebook />
               </a>
-              <a href="#" className="text-muted-foreground hover:text-primary">
+              <a
+                href="https://www.instagram.com/puricslepanje/"
+                target={"_blank"}
+                className="text-muted-foreground hover:text-primary"
+              >
                 <Instagram />
               </a>
             </div>
@@ -71,7 +79,9 @@ export default function Footer() {
               ŠLEP SLUŽBA PURIĆ
             </h3>
 
-            <p className=" font-bold ">starter poruka</p>
+            <p className=" font-bold ">
+              Na usluzi 24h dnevno 365 dana u godini
+            </p>
           </div>
         </div>
 

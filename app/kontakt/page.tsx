@@ -58,50 +58,39 @@ export default function Contact() {
   return (
     <div className="">
       <div className="container mx-auto pt-28 pb-16 px-6 md:px-8 md:py-32 space-y-12 md:space-y-24">
-        <h1 className="text-2xl md:text-5xl pl-2 md:px-32">
-          Kontakt starter manikam
-        </h1>
+        <h1 className="text-2xl md:text-5xl pl-2 md:px-32">Šlep Purić 032</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 items-center gap-10">
           <div className=" mx-2 md:mx-20">
             <div className="space-y-3 md:space-y-10 text-lg md:text-2xl">
               <a
-                href="tel:+3816"
+                href="tel:+381637896311"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaPhone className="text-[20px] lg:text-[30px]" />
-                  +38160 000 000
+                  +38163 789 6311
                 </button>
               </a>
               <a
-                href="viber://chat?number=%2B3816"
+                href="viber://chat?number=%2B381637896311"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaViber className="text-[28px] lg:text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
-                  +38160 000 000
+                  +38163 789 6311
                 </button>
               </a>
+
               <a
-                href="https://wa.me/3816"
+                href="mailto:sweetyivo@gmail.com"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  <FaWhatsappSquare className="text-[30px] lg:text-[35px] rounded-2xl text-green-700 " />{" "}
-                  +38160 000 000
+                  <Mail className=" w-[28px] h-[28px]" /> sweetyivo@gmail.com
                 </button>
               </a>
               <a
-                href="mailto:"
-                className="py-[7px] flex border-b-[1px] border-primary"
-              >
-                <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  <Mail className=" w-[28px] h-[28px]" />{" "}
-                  startermanikam@gmail.com
-                </button>
-              </a>
-              <a
-                href=""
+                href="https://www.instagram.com/puricslepanje/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-[7px] flex border-b-[1px] border-primary "
@@ -109,11 +98,11 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <FaInstagram className=" text-[28px] lg:text-[30px]" />
-                  manikam_starter
+                  puricslepanje
                 </button>
               </a>
               <a
-                href=""
+                href="https://www.facebook.com/profile.php?id=61559770900567"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="py-[7px] flex border-b-[1px] border-primary "
@@ -121,7 +110,7 @@ export default function Contact() {
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   {" "}
                   <Facebook className=" text-[28px] lg:text-[30px]" />
-                  Manikam Starter
+                  Šlep Purić 032
                 </button>
               </a>
             </div>

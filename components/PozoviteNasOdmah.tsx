@@ -11,7 +11,7 @@ const PozoviteNasOdmah = () => {
           Šlep služba Purić Čačak brza, povoljna i bezbedna šlep služba je tu za
           vas 24h dnevno, tokom cele godine godine.
         </h2>
-        <a href="tel:+381659480700">
+        <a href="tel:+381637896311">
           <motion.button
             whileHover={{ translateY: "-5px" }}
             whileTap={{ scale: 0.95 }}
