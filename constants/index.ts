@@ -17,6 +17,24 @@ export const navList = [
   {
     title: "Usluge",
     link: "/usluge",
+    list: [
+      {
+        title: "Šlep automobila",
+        link: "/usluge#slepautomobila",
+      },
+      {
+        title: "Šlep motora",
+        link: "/usluge#slepmotora",
+      },
+      {
+        title: "Šlep kombija i kamiona",
+        link: "/usluge#slepkombi",
+      },
+      {
+        title: "Pomoc na putu 0-24h",
+        link: "/usluge#pomocnaputu",
+      },
+    ],
   },
   {
     title: "Kontakt",
@@ -103,72 +121,125 @@ export const lineCardsData: LineCardsData[] = [
   },
 ];
 
-export interface ServisCardsData {
+export interface Cards2Data {
   id: number;
+  divName: string;
   icon: IconType;
   title: string;
   text: string;
+  image: string;
 }
 
-export const servisCardsData = [
+export const cards2Data: Cards2Data[] = [
   {
     id: 1,
+    divName: "slepautomobila",
     icon: LuTimerReset,
     title: "Šlep automobila",
-    text: "Vršimo šlep svih vrsta automobila, bez obzira na stanje vozila – havarisana, poluvozna ili ispravna.",
+    text: "Bilo da je u pitanju kvar, saobraćajna nezgoda ili potreba za prevozom vozila na drugu lokaciju, naša slep služba vam je na raspolaganju 24/7. Naš tim brzo reaguje i stiže na lokaciju u najkraćem roku, osiguravajući siguran i efikasan prevoz vašeg automobila. Koristimo modernu opremu i prilagođena vozila kako bismo osigurali bezbedan transport bez oštećenja. Bez obzira na udaljenost, možete se osloniti na nas za profesionalnu i pouzdanu uslugu.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 2,
+    divName: "slepautomobila",
     icon: GiWeight,
     title: "Šlep motora",
-    text: "Šlepamo motore, skutere, četvorotočkaše, motorne sanke i druga vozila brzo i sigurno.",
+    text: "Motocikli su osjetljivi na prevoz, pa je važno da se transport obavi pažljivo i bezbedno. Naša specijalizovana oprema omogućava sigurno pričvršćivanje motora, sprečavajući bilo kakva oštećenja tokom transporta. Bilo da je u pitanju kvar, nesreća ili prevoz na trke i servise, pružamo brzu i profesionalnu uslugu šlepanja motora. Naši vozači su iskusni i znaju kako pravilno rukovati dvotočkašima svih vrsta.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 3,
+    divName: "slepautomobila",
     icon: GiWeight,
     title: "Šlep kombija i kamiona",
-    text: "Pružamo uslugu transporta kombija, kamiona i radnih mašina širom Srbije, uz sigurnost i brzinu.",
+    text: "Za veća vozila kao što su kombiji i kamioni, potrebna je adekvatna vučna oprema i snažna vučna vozila. Naša slep služba poseduje specijalizovana vozila sposobna za prevoz teških i velikih vozila u svim uslovima. Bilo da je u pitanju kvar, nezgoda ili potreba za premeštanjem vozila, pružamo siguran i efikasan transport na željenu lokaciju.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 4,
+    divName: "slepautomobila",
     icon: GiWeight,
     title: "Šlep vozila iz inostranstva",
-    text: "Vršimo prevoz automobila iz inostranstva po najpovoljnijim cenama u Srbiji.",
+    text: "Ako vam je potrebno da dovezete automobil iz inostranstva, mi ćemo se pobrinuti za brz i siguran transport po najpovoljnijim uslovima. Bez obzira da li ste kupili automobil, imate vozilo koje se pokvarilo u drugoj državi ili želite da ga prevezete nazad u Srbiju, naš tim ima iskustvo sa međunarodnim transportom i svim potrebnim procedurama.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 5,
+    divName: "pomocnaputu",
     icon: GiWeight,
     title: "Pomoc na putu 0-24h",
-    text: "Svakom može zatrebati u nekom trenutku, naročito u hitnim slučajevima. Kada je potrebna šlep služba u Čačku i na teritoriji Zlatibora.",
+    text: "Bilo da ste ostali bez goriva, imate probušenu gumu, problem sa akumulatorom ili bilo koji drugi kvar na putu, mi smo dostupni u bilo koje doba dana i noći. Naš tim dolazi na lice mesta sa opremom za brzo rešavanje problema, kako biste mogli da nastavite putovanje bez čekanja. Ako problem ne može da se reši na licu mesta, organizujemo šlep do najbližeg servisa.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 6,
+    divName: "slepautomobila",
     icon: GiWeight,
     title: "Šlep lakog i teškog tereta",
-    text: "Za vas prevozimo i laki i teški teret, kako u Čačku, tako i u drugim gradovima Srbije.",
+    text: "Bez obzira da li se radi o prevozu manjih vozila ili teških transportnih jedinica, imamo odgovarajuću opremu i vozila za bezbedan prevoz svih vrsta tereta. Naša usluga obuhvata šlep laka komercijalna vozila, poljoprivrednu mehanizaciju, teške mašine i industrijsku opremu.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 7,
+    divName: "slepautomobila",
     icon: GiWeight,
     title: "Šlep havarisanog vozila",
-    text: "Ukoliko ste imali havariju na putu, tu smo da pokupimo vaše vozilo i bezbedno ga odšlepamo do servisa.",
+    text: "Vozila koja su pretrpela velika oštećenja u saobraćajnim nezgodama zahtevaju pažljiv transport kako bi se sprečila dodatna oštećenja. Naša specijalizovana vozila omogućavaju sigurno utovarivanje i prevoz havarisanih automobila, kombija i kamiona, bez obzira na stepen oštećenja.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 8,
+    divName: "slepautomobila",
     icon: GiWeight,
     title: "Šlep radnih mašina",
-    text: "Šlep radnih mašina do lokacije na kojoj mogu nastaviti s poslom, brzo i sigurno.",
+    text: "Radne mašine, kao što su bageri, viljuškari, rovokopači i druga građevinska oprema, često zahtevaju poseban transport. Naša slep služba poseduje specijalizovane kamione i prikolice koji mogu da prevezu teške i glomazne mašine do željene lokacije, bilo da se radi o gradilištu, servisu ili drugom mestu.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 9,
+    divName: "slepautomobila",
     icon: GiWeight,
     title: "Izvlačenje sajlom vozila van puta",
-    text: "Izvlačenje vozila sa puta sajlom, pažljivo izvedeno kako bi se izbegla dodatna oštećenja vozila.",
+    text: "Ako je vaše vozilo sletelo sa puta, zaglavilo u blatu, snegu ili pesku, nudimo uslugu izvlačenja pomoću jakih sajli i specijalizovane opreme. Naš tim je obučen da izvlači vozila iz teških terena bez dodatnih oštećenja. Bez obzira na vremenske uslove i teren, stižemo brzo i obezbeđujemo sigurno izvlačenje vozila.",
+    image: "/slep automobila.jpg",
   },
   {
     id: 10,
+    divName: "slepautomobila",
     icon: GiWeight,
     title: "Prevoz poljoprivrednih mašina",
-    text: "Prevoz poljoprivrednih mašina, priključaka i opreme – idealno rešenje za one koje je lakše transportovati nego voziti, kao i za neispravne mašine.",
+    text: "Prevoz poljoprivredne mehanizacije, poput traktora, sejalica, kombajna i drugih mašina, zahteva posebnu opremu i stručno rukovanje. Naš tim ima iskustvo u transportu poljoprivrednih vozila i osigurava da mašine stignu bezbedno i na vreme do vaše farme ili radnog mesta.",
+    image: "/slep automobila.jpg",
   },
+];
+
+export const ImagesAuto: string[] = [
+  "/slep automobila.jpg",
+  "/slep automobila (2).jpg",
+  "/slep automobila (3).jpg",
+  "/slep automobila (4).jpg",
+  "/slep automobila (5).jpg",
+  "/slep automobila (6).jpg",
+  "/slep automobila (7).jpg",
+  "/slep autobusa.jpg",
+  "/slep autobusa (2).jpg",
+  "/24h.jpg",
+  "/24h (2).jpg",
+  "/24h (3).jpg",
+  "/24h (4).jpg",
+  "/slep havarisanih.jpg",
+  "/slep havarisanih (2).jpg",
+  "/slep kamiona.jpg",
+  "/slep kamiona (2).jpg",
+  "/slep kombi.jpg",
+  "/slep kombi (2).jpg",
+  "/slep kombi (3).jpg",
+  "/slep kombi (4).jpg",
+  "/slep kombi (5).jpg",
+  "/slep masina.jpg",
+  "/slep masina (2).jpg",
+  "/slep masina (3).jpg",
+  "/slep masina (2).jpg",
+  "/slep masina (2).jpg",
+  "/slep masina (2).jpg",
 ];
