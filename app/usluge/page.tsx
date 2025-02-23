@@ -4,7 +4,7 @@ import Image from "@/node_modules/next/image";
 import { usePathname } from "@/node_modules/next/navigation";
 import React, { useEffect } from "react";
 
-const page = () => {
+const Page = () => {
   const pathname = usePathname();
 
   useEffect(() => {
@@ -61,4 +61,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;
