@@ -44,16 +44,16 @@ export default function Footer() {
           <div className="space-y-3 pb-5 md:pb-0">
             <div>
               {" "}
-              <a href="tel:+381637896311">
+              <a href="tel:+381659480700">
                 <p className="text-muted-foreground  hover:text-primary">
-                  Telefon: +38163 789 6311
+                  Telefon: +38165 948 0700
                 </p>
               </a>
             </div>
             <div>
               <a href="mailto:sweetyivo@gmail.com" target={"_blank"}>
                 <p className="text-muted-foreground text-wrap  hover:text-primary">
-                  Email: sweetyivo@gmail.com
+                  Email: slepsluzbapuric032@gmail.com
                 </p>
               </a>
             </div>

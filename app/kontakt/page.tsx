@@ -63,21 +63,21 @@ export default function Contact() {
           <div className=" mx-2 md:mx-20">
             <div className="space-y-3 md:space-y-10 text-lg md:text-2xl">
               <a
-                href="tel:+381637896311"
+                href="tel:+381659480700"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaPhone className="text-[20px] lg:text-[30px]" />
-                  +38163 789 6311
+                  +38165 948 0700
                 </button>
               </a>
               <a
-                href="viber://chat?number=%2B381637896311"
+                href="viber://chat?number=%2B381659480700"
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
                   <FaViber className="text-[28px] lg:text-[35px] p-1 bg-purple-600 text-white rounded-xl rounde" />{" "}
-                  +38163 789 6311
+                  +38165 948 0700
                 </button>
               </a>
 
@@ -86,7 +86,8 @@ export default function Contact() {
                 className="py-[7px] flex border-b-[1px] border-primary"
               >
                 <button className="hover:scale-110 transition-transform duration-500 px-4 md:px-8 flex gap-4 items-center">
-                  <Mail className=" w-[28px] h-[28px]" /> sweetyivo@gmail.com
+                  <Mail className=" w-[28px] h-[28px]" />{" "}
+                  slepsluzbapuric032@gmail.com
                 </button>
               </a>
               <a

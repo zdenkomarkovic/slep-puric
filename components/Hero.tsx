@@ -23,7 +23,7 @@ const Hero = () => {
         <h2 className="text-muted font-bold md:text-5xl text-xl">
           Od 0 do 24h, sedam dana u nedelji!
         </h2>
-        <a href="tel:+381637896311">
+        <a href="tel:+381659480700">
           <motion.button
             whileHover={{ translateY: "-5px" }}
             whileTap={{ scale: 0.95 }}
