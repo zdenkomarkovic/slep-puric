@@ -33,7 +33,7 @@ export const metadata: Metadata = {
     "slep cacak",
   ],
   alternates: {
-    canonical: "https://",
+    canonical: "https://www.slep-cacak.rs",
   },
 };
 
