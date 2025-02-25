@@ -1,6 +1,6 @@
 /** @type {import('next-sitemap').IConfig} */
 module.exports = {
-  siteUrl: "https://tvoj-domen.com", // Zameni svojim domenom
+  siteUrl: "https://www.slep-cacak.rs/", // Zameni svojim domenom
   generateRobotsTxt: true,
   sitemapSize: 5000,
 };
